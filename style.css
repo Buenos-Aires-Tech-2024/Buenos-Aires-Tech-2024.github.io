@@ -115,9 +115,15 @@ h2, h3 {
     flex-direction: column;
  }
 
-/*1-Para los parrafos y demas usar un selector descendiente para que sea mas especfico, por ejemplo main p {propiedad:regla;}, esto es de mejor calidad que selector solo
-2-Tambien puedo usar el selector + para hermanos adyacentes(pagina 6) para cosas como para seleccionar el primer elemento que le sigue a algo para asi destacarlo
-3- En el menu en cada <li> poner un border con la propiedad outset para hacerlo mas visualmente agradable, puedo hacer que el margin de dos lados sea de un color y el margin de otros dos lados de otro color
-4- Ver en las diapositivas las paletas de colores a usar para todo
-5- El menu lo puedo hacer vertical ó horizontal, creo que horizontal es mejor, para esto puedo usar flexbox row
-6-*/
+ .Background-Form-EcoNutricion {
+    background-image: linear-gradient(to bottom right, grey, white);
+    color: white;
+ }
+ 
+ footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+ }
+
