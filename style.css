@@ -1,0 +1,123 @@
+.logo {
+    padding: 15px;
+    margin: 5px;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    align-content: center;
+}
+
+p {
+    font-family: "Oswald";
+}
+
+footer {
+    background-color: blue;
+    font-family: cursive;
+}
+
+nav > ul {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    color: azure;
+}
+
+li {
+    margin: 10px;
+}
+
+.Mapa-De-Sucursales {
+    width: 100%;
+}
+
+.Comunidad-EcoNutricion {
+    background-image: linear-gradient(to bottom right, grey, white);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Border-Bottom-Naranja {
+    border-bottom:5px orange solid ;
+}
+
+h2, h3 {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+    border-bottom:5px orange solid ;
+    }
+
+
+.Productos {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom right, grey, white);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Box-De-Producto {
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 10px;
+    border: 2px orange solid;
+    background-image:url(fondo-para-productos.jpg) ;
+}
+ @media only screen and (max-width: 600px) {
+    .Productos{flex-direction: column;}
+    
+ }  
+
+ .Reseñas {
+    display: grid;
+    width: 100%;
+    height: 15%;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    background-image: linear-gradient(to bottom right, grey, white);
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .Reseña-1 {
+    grid-column-start: 2;   
+    grid-column-end: 3;
+ }
+ .Reseña-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+ }
+ .Reseña-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+ }
+
+ @media only screen and (max-width: 600px){
+    .Reseñas{grid-template-columns: 1fr;}   
+    .Reseña-1,.Reseña-2,.Reseña-3{grid-column-start: 1;grid-column-end: 1;}
+ }
+
+ .Form-EcoNutricion {
+    display: inline-flex;
+    flex-direction: column;
+ }
+
+/*1-Para los parrafos y demas usar un selector descendiente para que sea mas especfico, por ejemplo main p {propiedad:regla;}, esto es de mejor calidad que selector solo
+2-Tambien puedo usar el selector + para hermanos adyacentes(pagina 6) para cosas como para seleccionar el primer elemento que le sigue a algo para asi destacarlo
+3- En el menu en cada <li> poner un border con la propiedad outset para hacerlo mas visualmente agradable, puedo hacer que el margin de dos lados sea de un color y el margin de otros dos lados de otro color
+4- Ver en las diapositivas las paletas de colores a usar para todo
+5- El menu lo puedo hacer vertical ó horizontal, creo que horizontal es mejor, para esto puedo usar flexbox row
+6-*/
