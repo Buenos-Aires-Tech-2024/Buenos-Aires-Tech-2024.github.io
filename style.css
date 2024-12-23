@@ -3,6 +3,49 @@
     margin: 5px;
 }
 
+#carro-vacio {
+    color: blue;
+    font-size: 3rem;
+}
+
+#aun-no-tienes-articulos {
+    font-size: 2rem;
+}
+
+.carrito-font-size {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tarjeta-de-producto {
+    box-sizing: content-box;
+    max-width: 250px;
+    height: 625px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px orange solid;
+    background-image:url(fondo-para-productos.jpg) ;
+   
+}
+
+.Numero-De-Precio {
+    color: azure;
+    background-color: black;
+    text-align: center;
+    border-bottom: 5px orange solid;
+}
+
+#div-de-productos {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom right, grey, white);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 header {
     display: inline-flex;
     width: 100%;
@@ -119,11 +162,12 @@ h2, h3 {
     background-image: linear-gradient(to bottom right, grey, white);
     color: white;
  }
- 
+    
  footer {
     background-color: black;
     color: white;
     height: 50px;
     text-align: center;
+    border-top: 5px orange solid
  }
 
