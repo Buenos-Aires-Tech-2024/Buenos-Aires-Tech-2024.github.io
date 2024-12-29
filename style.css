@@ -46,10 +46,11 @@
     align-content: center;
 }
 
+
 header {
     display: inline-flex;
+    flex-direction: column;
     width: 100%;
-    position: sticky;
     top: 0;
     background-color: black;
     font-family: "Montserrat", sans-serif;
@@ -93,6 +94,11 @@ li {
     align-content: center;
 }
 
+.Comunidad-EcoNutricion iframe { 
+    width: 100%; 
+    height: auto; 
+    aspect-ratio: 16 / 9;  }
+
 .Border-Bottom-Naranja {
     border-bottom:5px orange solid ;
 }
@@ -122,10 +128,7 @@ h2, h3 {
     border: 2px orange solid;
     background-image:url(fondo-para-productos.jpg) ;
 }
- @media only screen and (max-width: 600px) {
-    .Productos{flex-direction: column;}
-    
- }  
+  
 
  .Reseñas {
     display: grid;
@@ -148,10 +151,6 @@ h2, h3 {
     grid-column-end: 5;
  }
 
- @media only screen and (max-width: 600px){
-    .Reseñas{grid-template-columns: 1fr;}   
-    .Reseña-1,.Reseña-2,.Reseña-3{grid-column-start: 1;grid-column-end: 1;}
- }
 
  .Form-EcoNutricion {
     display: inline-flex;
@@ -171,3 +170,42 @@ h2, h3 {
     border-top: 5px orange solid
  }
 
+ @media only screen and (max-width: 600px) {
+    #div-de-productos{flex-direction: column;}
+    
+ } 
+
+ @media only screen and (max-width: 600px){
+    .Reseñas{grid-template-columns: 1fr;}   
+    .Reseña-1,.Reseña-2,.Reseña-3{grid-column-start: 1;grid-column-end: 1;}
+ }
+
+ @media only screen and (max-width: 600px) {
+    .Productos{flex-direction: column;}
+    
+ } 
+
+ @media only screen and (max-width: 600px) {
+    .Comunidad-EcoNutricion{flex-direction: column;}
+    
+ } 
+
+ @media only screen and (max-width: 600px) {
+    .Reseñas{
+        display: flex;
+        flex-direction: column;}
+} 
+
+
+@media only screen and (max-width: 600px) {
+    #IdDeMenu{
+        display: flex;
+        flex-direction: column;}    
+} 
+
+@media only screen and (min-width: 601px) {
+    header {
+        position: sticky;
+        flex-direction: row;
+        }
+}
