@@ -18,7 +18,12 @@ La pagina del proyecto es de una empresa dietetica llamada EcoNutricion, con var
 -Puse una breve descripcion de el funcionamiento del codigo en los comentarios en el archivo script.js <br>
 -Agregue en el <head> del HTML una descripcion, icono, rel="canonical" y title para mejorar el SEO de la pagina <br>
 -Agregue una descripcion alt="" a las imagenes por motivos de accessibilidad.
--No agregue una edicion de cantidades a los productos del carrito (como un boton de mas y menos para sumar ó restar uno) por no saber como hacerlo, reconozco que entregue el proyecto el ultimo dia y que por eso no agregue eso y esa es mi responsabilidad al igual que el hecho de que no sea del todo responsive y no haber realizado commits regulares en github para documentar cambios.
+-Intente poner lo mas posible en funciones para tener asi codigo reutilizable.
+-Reconozco que el codigo esta un poco desordenado, espero sea legible.
+
+-Agregue mas media queries que en la entrega anterior y la hice mas responsive (cosa que antes no era del todo)
+-En mi computadora los videos de youtube y el mapa se rompen si se pone la pantalla en resolucion de celular, pero para otros que los testearon a mi pedido les funciona, no se si este es un problema mio ó general.
+-Reconozco que no hice commits regulares para registrar cambios en el codigo.
  
 
 
