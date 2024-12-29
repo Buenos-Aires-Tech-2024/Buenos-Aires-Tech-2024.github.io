@@ -17,13 +17,13 @@ La pagina del proyecto es de una empresa dietetica llamada EcoNutricion, con var
 -Mantuve la parte que dice "Linea de productos" por mas que no sea funcional ya que esta tendria utilidad en una pagina real ya que sea usado para navegar a esas categorias <br>
 -Puse una breve descripcion de el funcionamiento del codigo en los comentarios en el archivo script.js <br>
 -Agregue en el <head> del HTML una descripcion, icono, rel="canonical" y title para mejorar el SEO de la pagina <br>
--Agregue una descripcion alt="" a las imagenes por motivos de accessibilidad.
--Intente poner lo mas posible en funciones para tener asi codigo reutilizable.
--Reconozco que el codigo esta un poco desordenado, espero sea legible.
+-Agregue una descripcion alt="" a las imagenes por motivos de accessibilidad<br>
+-Intente poner lo mas posible en funciones para tener asi codigo reutilizable.<br>
+-Reconozco que el codigo esta un poco desordenado, espero sea legible.<br>
 
--Agregue mas media queries que en la entrega anterior y la hice mas responsive (cosa que antes no era del todo)
--En mi computadora los videos de youtube y el mapa se rompen si se pone la pantalla en resolucion de celular, pero para otros que los testearon a mi pedido les funciona, no se si este es un problema mio ó general.
--Reconozco que no hice commits regulares para registrar cambios en el codigo.
+-Agregue mas media queries que en la entrega anterior y la hice mas responsive (cosa que antes no era del todo)<br>
+-En mi computadora los videos de youtube y el mapa se rompen si se pone la pantalla en resolucion de celular, pero para otros que los testearon a mi pedido les funciona, no se si este es un problema mio ó general.<br>
+-Reconozco que no hice commits regulares para registrar cambios en el codigo.<br>
  
 
 
